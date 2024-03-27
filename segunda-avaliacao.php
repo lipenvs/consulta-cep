@@ -29,7 +29,7 @@ include_once('layout/_header.php');
   <main class="container mt-5 full-height">
     <div class="d-flex flex-row justify-content-between">
       <h1 class="title">Consulta CEP</h1>
-      <a href="./ex1.php" class="custom-button2">
+      <a target="_blank" href="https://github.com/lipenvs/consulta-cep" class="custom-button2">
         <img alt="UltraLIMS Logo" src="./assets/github-logo.png" width="25" />
         <div class="custom-row2">
           <span class="title">Github do Projeto</span>
