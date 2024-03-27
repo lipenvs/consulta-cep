@@ -8,7 +8,7 @@
         <a href="ex1.php" class="custom-button mb-3">
           <img alt="UltraLIMS Logo" src="./assets/ultra.png" />
           <div class="custom-column">
-            <span class="title">Número não repetido</span>
+            <span class="title">Não repetido</span>
             <span class="subtitle">Exercício 1</span>
           </div>
         </a>
