@@ -1,0 +1,130 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F4F6F8;
+}
+
+a {
+  text-decoration: none;
+  color: #F4F6F8;
+}
+
+li a {
+  color: #F4F6F8 !important;
+}
+
+
+p a {
+  color: #16213E !important;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+th a {
+  color: #16213E !important;
+}
+
+iframe.youtube {
+  border: 8px solid #16213E;
+  border-radius: 8px;
+}
+
+.navbar-custom {
+  background-color: #16213E;
+}
+
+.video-frame {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-button {
+  background-color: #16213E;
+  text-decoration: none;
+  border-radius: 8px;
+  display: flex;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  gap: 12px;
+}
+
+.custom-button2 {
+  background-color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  display: flex;
+  padding: .8rem;
+  align-items: center;
+  gap: 12px;
+}
+
+.custom-row2 {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.custom-button .title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.custom-button .subtitle {
+  color: #01AEF0;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+
+.custom-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+h1.title {
+  font-weight: 700;
+  color: #16213E;
+}
+
+.sortable::after {
+  margin-left: 3px;
+  font-size: 0.8em;
+  content: '\2195';
+  /* Define a seta padrão para cima e para baixo */
+}
+
+.sortable.dir-asc::after {
+  content: '\2191';
+  /* Altera a seta para cima quando a direção é ascendente */
+}
+
+.sortable.dir-desc::after {
+  content: '\2193';
+  /* Altera a seta para baixo quando a direção é descendente */
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.full-height {
+  min-height: calc(100vh - 220px);
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #01AEF0;
+  /* Adicione um sublinhado na parte inferior */
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #FF4F3F;
+  /* Adicione um sublinhado na parte inferior */
+}
